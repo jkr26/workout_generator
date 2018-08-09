@@ -8,6 +8,7 @@ import (
 "math/rand"
 "time"
 "strings"
+"github.com/zmb3/spotify"
 )
 
 type workoutClass struct{
@@ -100,6 +101,12 @@ func grab_random_workout(w workoutClass) (Move) {
 	return Move{n, mapped}
 }
 
+func writeSpotifyPlaylist(w []Move) () {
+	auth := spotify.NewAuthenticator("", spotify.ScopeUserReadPrivate)
+	url := auth.AuthURL("379780")
+	fmt.Println(string(url))
+}
+
 
 func main() {
 	text, err := readFile("Workouts.json")
@@ -132,4 +139,5 @@ func main() {
 	}
 	fmt.Println("]")
 	}
+	writeSpotifyPlaylist(body)
 }
