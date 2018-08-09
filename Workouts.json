@@ -1,42 +1,52 @@
-{"workouts": [{"workoutClass":{"name":"circuit",
+{"workouts": [
+{"name": "warmup",
+"attrs": {
+	"offergmove1":["sumo-squat", "lunge+twist"],
+	"offergmove2":["Around-the-world", "pushup", "inchworm"],
+	"ergprogression":["Legs/L+B/Pause/Rusty/M", "E/L/A/A+B/P/M"]
+}
+},
+{"name":"circuit",
 "attrs": {
 	"type": ["AMRAP", "EMOM", "Ladder up", "Ladder down"],
 	"EMOMType": ["2X", "4X"],
 	"time": ["6", "8"],
-	"rowing": ["200m", "300m", "500m", "1:00"],
+	"rowing": ["100m", "200m", "300m", "500m", "1:00"],
 	"strengthI": ["Burpees", "Renegade rows", "Spider-man pushups", "Mountain climbers", "Plank"],
 	"strengthII": ["Squat-jumps", "Bicycles", "Squat-press", "DB snatch"]
 }
-}
 },
-{"workoutClass":{"name":"intervals",
+{"name":"intervals",
 "attrs": {
 	"time": ["4", "6", "8"],
 	"type": ["Ladder up", "Ladder down", "Up and down", "Repeat"],
 	"RepeatTime":["30 on/30 off", "40 on/20 off"],
-	"LadderStart":["15", "30"],
+	"LadderStartOrEnd":["15", "30"],
 	"LadderIntervals":["15", "10", "5"]
 }
+},
+{"name":"rowing",
+"attrs": {
+	"time": ["4", "6"],
+	"type": ["BFL Special", "Team rowing"]
 }
 },
-{"workoutClass":{"name":"lb strength",
+{"name":"lbstrength",
 "attrs":{
 	"reps": ["8", "10", "12"],
 	"moves": ["reverse lunge", "DB swing", "DB snatch", "Squat-press"]
 }
-}
 },
-{"workoutClass":{"name":"ub strength",
+{"name":"ubstrength",
 "attrs":{
 	"reps": ["8", "10", "12"],
 	"sets": ["2", "3"],
 	"moves":["BC", "TE", "C+P", "DB high pull", "BOR", "Y/T/W"]
 }
 },
-"workoutClass":{"name":"finisher",
+{"name":"finisher",
 "attrs":{
 	"sprints": ["300m"]
-}
 }
 }
 ]

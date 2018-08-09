@@ -1,0 +1,42 @@
+JKR workout generator.
+Workout generated 2018-08-06 19:49:00.583224266 -0500 CDT m=+0.000872374
+warmup: [ 
+offergmove1: sumo-squat 
+offergmove2: inchworm 
+ergprogression: Legs/L+B/Pause/Rusty/M 
+]
+intervals: [ 
+type: Up and down 
+LadderStartOrEnd: 15 
+LadderIntervals: 10 
+time: 8 
+]
+circuit: [ 
+type: AMRAP 
+rowing: 200m 
+strengthI: Mountain climbers 
+strengthII: Squat-press 
+EMOMType: 2X 
+time: 8 
+]
+rowing: [ 
+type: Team rowing 
+time: 4 
+]
+circuit: [ 
+rowing: 1:00 
+type: EMOM 
+EMOMType: 2X 
+time: 6 
+strengthI: Plank 
+strengthII: Squat-press 
+]
+lbstrength: [ 
+reps1: 10 
+moves1: DB swing 
+moves2: DB snatch 
+reps2: 10 
+]
+finisher: [ 
+sprints: 300m 
+]
