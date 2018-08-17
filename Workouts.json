@@ -1,19 +1,20 @@
 {"workouts": [
 {"name": "warmup",
 "attrs": {
-	"offergmove1":["sumo-squat", "lunge+twist"],
+	"offergmove1":["sumo-squat", "lunge+twist", "knee-to-chest", "high kicks"],
 	"offergmove2":["Around-the-world", "pushup", "inchworm"],
 	"ergprogression":["Legs/L+B/Pause/Rusty/M", "E/L/A/A+B/P/M"]
 }
 },
 {"name":"circuit",
 "attrs": {
-	"type": ["AMRAP", "EMOM", "Ladder up", "Ladder down"],
-	"EMOMType": ["2X", "4X"],
-	"time": ["6", "8"],
+	"type": ["AMRAP", "EMOM"],
+	"EMOMType": ["2X", "3X", "4X"],
+	"time": ["4", "6", "8"],
 	"rowing": ["100m", "200m", "300m", "500m", "1:00"],
+	"rest": ["Yes", "No"],
 	"strengthI": ["Burpees", "Renegade rows", "Spider-man pushups", "Mountain climbers", "Plank"],
-	"strengthII": ["Squat-jumps", "Bicycles", "Squat-press", "DB snatch"]
+	"strengthII": ["Squat-jumps", "Bicycles", "Squat-press", "Russian twists", "Split-jumps"]
 }
 },
 {"name":"intervals",
@@ -34,7 +35,7 @@
 {"name":"lbstrength",
 "attrs":{
 	"reps": ["8", "10", "12"],
-	"moves": ["reverse lunge", "DB swing", "DB snatch", "Squat-press"]
+	"moves": ["reverse lunge", "DB swing", "DB snatch", "Squat-press", "Wood chops", "HC+P", "Front squat"]
 }
 },
 {"name":"ubstrength",

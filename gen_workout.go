@@ -102,7 +102,7 @@ func grab_random_workout(w workoutClass) (Move) {
 }
 
 func writeSpotifyPlaylist(w []Move) () {
-	auth := spotify.NewAuthenticator("", spotify.ScopeUserReadPrivate)
+	auth := spotify.NewAuthenticator("https://www.google.com", spotify.ScopeUserReadPrivate)
 	url := auth.AuthURL("379780")
 	fmt.Println(string(url))
 }
